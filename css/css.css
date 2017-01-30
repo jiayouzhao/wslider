@@ -11,6 +11,7 @@ img{
     margin:100px auto;
     text-align:center;
     position:relative;
+    overflow:hidden;
 }
 .main{
     width:310px;

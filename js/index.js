@@ -60,7 +60,7 @@ var timer=null;
 timer=setInterval(autoplay,2000);
 function autoplay(){
     animate(imgs[key],{left:-scrollleft});
-    ++key>imgs.length?key=0:key;
+    ++key>imgs.length-1?key=0:key;
     imgs[key].style.left=scrollleft+"px";
     animate(imgs[key],{left:0});
     setColor();
